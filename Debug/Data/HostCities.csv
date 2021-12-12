@@ -1,0 +1,24 @@
+Code,Country,Info,HostTotal,HostSummer,HostWinter
+GRE,Greece,"1896 Summer Olympics (Athens), 2004 Summer Olympics (Athens)",2,2,0
+FRA,France,"1900 Summer Olympics (Paris), 1924 Winter Olympics (Chamonix), 1924 Summer Olympics (Paris), 1968 Winter Olympics (Grenoble), 1992 Winter Olympics (Albertville)",5,2,3
+USA,United States,"1904 Summer Olympics (St. Louis), 1932 Winter Olympics (Lake Placid), 1932 Summer Olympics (Los Angeles), 1960 Winter Olympics (Squaw Valley), 1980 Winter Olympics (Lake Placid), 1984 Summer Olympics (Los Angeles), 1996 Summer Olympics (Atlanta), 2002 Winter Olympics (Salt Lake City)",8,4,4
+GBR,United Kingdom,"1908 Summer Olympics (London), 1948 Summer Olympics (London), 2012 Summer Olympics (London)",3,3,0
+SWE,Sweden,"1912 Summer Olympics (Stockholm)",1,1,0
+BEL,Belgium,"1920 Summer Olympics (Antwerp)",1,1,0
+SUI,Switzerland,"1928 Winter Olympics (St. Moritz), 1948 Winter Olympics (St. Moritz)",2,0,2
+NED,Netherlands,"1928 Summer Olympics (Amsterdam)",1,1,0
+GER,Germany,"1936 Winter Olympics (Garmisch-Partenkirchen), 1936 Summer Olympics (Berlin), 1972 Summer Olympics (Munich)",3,2,1
+NOR,Norway,"1952 Winter Olympics (Oslo), 1994 Winter Olympics (Lillehammer)",2,0,2
+FIN,Finland,"1952 Summer Olympics (Helsinki)",1,1,0
+ITA,Italy,"1956 Winter Olympics (Cortina d'Ampezzo), 1960 Summer Olympics (Rome), 2006 Summer Olympics (Turin)",3,1,2
+AUS,Australia,"1956 Summer Olympics (Melbourne), 2000 Summer Olympics (Sydney)",2,2,0
+AUT,Austria,"1964 Winter Olympics (Innsbruck), 1976 Winter Olympics (Innsbruck)",2,0,2
+JPN,Japan,"1964 Summer Olympics (Tokyo), 1972 Winter Olympics (Sapporo), 1998 Winter Olympics (Nagano), 2020 Summer Olympics (Tokyo)",4,2,2
+MEX,Mexico,"1968 Summer Olympics (Mexico City)",1,1,0
+CAN,Canada,"1976 Summer Olympics (Montreal), 1988 Winter Olympics (Calgary), 2010 Winter Olympics (Vancouver)",3,1,2
+RUS,Russia,"1980 Summer Olympics (Moscow), 2014 Winter Olympics (Sochi)",2,1,1
+BIH,Bosnia,"1984 Winter Olympics (Sarajevo)",1,0,1
+KOR,South Korea,"1988 Summer Olympics (Seoul), 2018 Winter Olympics (Pyeongchang)",2,1,1
+ESP,Spain,"1992 Summer Olympics (Barcelona)",1,1,0
+CHN,China,"2008 Summer Olympics (Beijing)",1,1,0
+BRA,Brazil,"2016 Summer Olympics (Rio de Janeiro)",1,1,0

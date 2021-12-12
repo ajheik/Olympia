@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    color: rgb(88, 88, 88);
+    transition: background-color 0.2s ease;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #e4e5f1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.2s ease;
+}
+
+#select {
+    position:absolute;
+    margin-top: 35px;
+    margin-left: 150px;
+}
+
+#select select {
+    background-color: white;
+    color: rgb(88, 88, 88);
+    padding: 8px;
+    border: none;
+    font-size: 12px;
+    width: 160px;
+    cursor: pointer;
+}
+  
+#about {
+    position: absolute;
+    margin: 40px;
+    align-self: flex-end;
+    margin-right: 80px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 40px;
+    align-self: center;    
+    z-index: 1;
+}
+
+#logo {
+    position: absolute;
+    align-self: flex-start;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    visibility: hidden;
+    margin: 4px;
+    color: #FF4C29;
+}
+
+p {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 4px;    
+    color: #FF4C29;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.info-container {
+    width: 15vw;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.2);
+    padding: 16px;
+    padding-top: 0;
+    height: calc(100vh - 115px);
+    overflow: auto;
+}
+
+#nimi {
+    font-size: 20px;
+    color: #FF4C29;
+    font-weight: bold;
+}
+
+#lippu {
+    padding-top: 10px;
+}
+
+.kartta-container {
+    width: 70vw;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+.topo {
+    transition: fill 0.3s;
+}
+
+.topo:hover {
+    fill: #d89184;
+    stroke:black;
+    stroke-dasharray: 2;
+    cursor: pointer;
+}
+
+.legendQuant {
+    transform: translate(3%, -23%);
+    fill: rgb(155, 155, 155);
+}
+
+.toplista-container {
+    width: 15vw;
+    box-shadow: -2px 5px 5px rgba(0,0,0,0.2);
+    padding: 20px;
+    height: calc(100vh - 140px);
+    overflow: auto;
+}
+
+#topnappi :hover {
+    cursor: pointer;
+}
+
+.boldattu {
+    color:#FF4C29;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hover_boldattu {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#dark-light {
+    font-size: x-large;
+    position: absolute;
+    align-self: flex-end;
+    margin: 35px;
+    color: #fff34d;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+#dark-light :hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.dark-mode {
+    background-color: #2C394B;
+    color: #b6b6b6;
+}
+
+.dark-mode header {
+    background-color: #082032;
+}
+
+.dark-mode #map {
+    background-color:#334756;
+}
+
+.dark-mode #select select {
+    background-color: #334756;
+    color: rgb(202, 202, 202);
+}
+
+/* About-ikkunan tausta */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* About-ikkunan sisältö */
+  .modal-content {
+    background-color: #fefefe;
+    color: rgb(88, 88, 88);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  .modal-content p {
+      color:rgb(88, 88, 88);
+  }
+  
+  .dark-mode .modal-content {
+    background-color: #082032;
+  }
+
+  .dark-mode .modal-content p {
+    color: #b6b6b6;
+  }
+
+  /* About-ikkunan sulkunappi */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
